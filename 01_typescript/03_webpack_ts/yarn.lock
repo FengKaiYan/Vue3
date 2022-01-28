@@ -15,6 +15,13 @@
   resolved "http://npm-registry.duowan.com/@types/html-minifier-terser/download/@types/html-minifier-terser-5.1.2.tgz#693b316ad323ea97eed6b38ed1a3cc02b1672b57"
   integrity sha1-aTsxatMj6pfu1rOO0aPMArFnK1c=
 
+"@types/jquery@^3.5.13":
+  version "3.5.13"
+  resolved "http://npm-registry.duowan.com/@types/jquery/download/@types/jquery-3.5.13.tgz#5482d3ee325d5862f77a91c09369ae0a5b082bf3"
+  integrity sha1-VILT7jJdWGL3epHAk2muClsIK/M=
+  dependencies:
+    "@types/sizzle" "*"
+
 "@types/minimatch@*":
   version "3.0.5"
   resolved "http://npm-registry.duowan.com/@types/minimatch/download/@types/minimatch-3.0.5.tgz#1001cc5e6a3704b83c236027e77f2f58ea010f40"
@@ -24,6 +31,11 @@
   version "17.0.12"
   resolved "http://npm-registry.duowan.com/@types/node/download/@types/node-17.0.12.tgz#f7aa331b27f08244888c47b7df126184bc2339c5"
   integrity sha1-96ozGyfwgkSIjEe33xJhhLwjOcU=
+
+"@types/sizzle@*":
+  version "2.3.3"
+  resolved "http://npm-registry.duowan.com/@types/sizzle/download/@types/sizzle-2.3.3.tgz#ff5e2f1902969d305225a047c8a0fd5c915cebef"
+  integrity sha1-/14vGQKWnTBSJaBHyKD9XJFc6+8=
 
 "@types/source-list-map@*":
   version "0.1.2"
@@ -2314,6 +2326,11 @@ isobject@^3.0.0, isobject@^3.0.1:
   version "3.0.1"
   resolved "http://npm-registry.duowan.com/isobject/download/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
+
+jquery@^3.6.0:
+  version "3.6.0"
+  resolved "http://npm-registry.duowan.com/jquery/download/jquery-3.6.0.tgz#c72a09f15c1bdce142f49dbf1170bdf8adac2470"
+  integrity sha1-xyoJ8Vwb3OFC9J2/EXC9+K2sJHA=
 
 json-parse-better-errors@^1.0.2:
   version "1.0.2"

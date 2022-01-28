@@ -17,6 +17,6 @@
     let add3:(x: number, y: number)=> number = function (x: number, y: number): number {
         return x+y
     }
-    console.log(add2(99,88))
+    console.log(add3(99,88))
 
 })()

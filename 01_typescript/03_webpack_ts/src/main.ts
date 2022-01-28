@@ -1,3 +1,3 @@
-import './04_函数重载'
+import './02_内置对象'
 
 document.write('hello, webpack & ts')
