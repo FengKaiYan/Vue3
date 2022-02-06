@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="./index.js"></script>
+    <script>
+        // const proxyUser1 = shallowReactive({
+        //     name: "小明",
+        //     car: {
+        //         color: "red"
+        //     }
+        // })
+
+
+        // 拦截到读写删除
+        // console.log(proxyUser1.name)
+        // proxyUser1.name = 'abc'
+        // delete proxyUser1.name
+
+        // 拦截不到读写删除
+        // console.log(proxyUser1.car.color)
+        // proxyUser1.car.color = 'abc'
+        // delete proxyUser1.car.color
+
+        // const proxyUser2 = reactive({
+        //     name: "小明",
+        //     car: {
+        //         color: "red"
+        //     }
+        // })
+
+        // 拦截到读写删除
+        // console.log(proxyUser2.name)
+        // proxyUser2.name = 'abc'
+        // delete proxyUser2.name
+
+        // 拦截不到读写删除
+        // console.log(proxyUser2.car.color)
+        // proxyUser2.car.color = 'abc'
+        // delete proxyUser2.car.color
+
+        // const proxyUser3 = shallowReadonly({
+        //     name: "小明",
+        //     car: {
+        //         color: "red"
+        //     }
+        // })
+
+        // 浅层属性只读
+        // console.log(proxyUser3.name)
+        // proxyUser3.name = 'abc'
+        // delete proxyUser3.name
+
+        // 深层属性不只读
+        // console.log(proxyUser3.car.color)
+        // proxyUser3.car.color = 'abc'
+        // delete proxyUser3.car.color
+
+        // console.log(proxyUser3)
+
+        // const proxyUser4 = readonly({
+        //     name: "小明",
+        //     car: {
+        //         color: "red"
+        //     }
+        // })
+
+        // 浅层属性只读
+        // console.log(proxyUser4.name)
+        // proxyUser4.name = 'abc'
+        // delete proxyUser4.name
+
+        // 深层属性只读
+        // console.log(proxyUser4.car.color)
+        // proxyUser4.car.color = 'abc'
+        // delete proxyUser4.car.color
+
+        // console.log(proxyUser4)
+
+        // const ref3 = shallowRef({
+        //     a: "小明",
+        // })
+
+        // ref3.value = 'xxx'
+        // ref3.value.a = 'yyy'
+
+        const ref1 = ref(0)
+        const ref2 = ref({
+            a: 'abc',
+            b: [{ x: 1 }],
+            c: { x: [11] },
+        })
+        ref1.value++;
+        ref2.value.b[0].x++;
+        console.log(ref1, ref2);
+
+    </script>
+</body>
+
+</html>
