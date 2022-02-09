@@ -2,5 +2,9 @@
   "name": "02_vue3",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "create-vite-app": "^1.21.0",
+    "global": "^4.4.0"
+  }
 }
